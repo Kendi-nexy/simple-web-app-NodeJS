@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to TechWorld</title>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f0f0;
+      color: #333;
+    }
+    header {
+      background: #D8B4FE;
+      padding: 50px;
+      text-align: center;
+      color: white;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    section {
+      padding: 50px;
+      margin: 20px 0;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #D8B4FE;
+      color: white;
+    }
+    footer a {
+      text-decoration: none;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header data-aos="fade-down">
+    <h1>TechWorld</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <p>Innovating Tomorrow's Technology Today</p>
+  </header>
+
+  <section data-aos="fade-up">
+    <h2>Tech Features</h2>
+    <p>Explore cutting-edge innovations in technology and digital solutions.</p>
+  </section>
+
+  <section data-aos="zoom-in">
+    <h3>Latest Technologies</h3>
+    <p>Discover AI, Cloud, and Web Development technologies that are shaping the future.</p>
+  </section>
+
+  <footer data-aos="fade-up">
+    <p>&copy; 2025 TechWorld. All Rights Reserved. | <a href="contact.html">Contact Us</a></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      easing: 'ease-in-out',
+      duration: 1000,
+      once: true,
+    });
+  </script>
+
+</body>
+</html>

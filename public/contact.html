@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - TechWorld</title>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f0f0;
+      color: #333;
+    }
+    header {
+      background: #D8B4FE;
+      padding: 50px;
+      text-align: center;
+      color: white;
+    }
+    form {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      margin: 0 auto;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px 20px;
+      background: #D8B4FE;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #D8B4FE;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header data-aos="fade-down">
+    <h1>Contact Us</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section data-aos="fade-up">
+    <h2>Talk To Us</h2>
+    <form action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer data-aos="fade-up">
+    <p>&copy; 2025 TechWorld. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      easing: 'ease-in-out',
+      duration: 1000,
+      once: true,
+    });
+  </script>
+
+</body>
+</html>
